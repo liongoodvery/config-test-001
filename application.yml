@@ -1,15 +1,4 @@
-spring:
-  profiles:
-    active: dev
-
----
-spring:
-  profiles: dev
-  application:
-    name: provider-dev
-
----
-spring:
-  profiles: test
-  application:
-    name: provider-test
+org:
+  lion:
+    info:
+      name: config1
